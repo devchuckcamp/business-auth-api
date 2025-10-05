@@ -1,0 +1,127 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+debug.log
+error.log
+access.log
+
+# Prisma
+prisma/migrations/
+src/generated/
+
+# Jest
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Additional Node.js exclusions
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.node_repl_history
+*.tgz
+.yarn-integrity
+.cache
+.parcel-cache
+.next
+.nuxt
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+
+# Package manager variations
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Security & Auth related
+*.pem
+*.key
+private-key.pem
+public-key.pem
+client_secret*.json
+credentials.json
+
+# Docker
+.dockerignore
+Dockerfile.dev
+
+# Local development
+.local
+local-config.json
+
+# SSL certificates
+*.crt
+ssl/
+
+# Testing files
+.nyc_output/
+
+# Documentation
+docs/
+
+# Backup files
+*.backup
+*.bak
