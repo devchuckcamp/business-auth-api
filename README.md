@@ -2,7 +2,7 @@
 
 A robust Node.js API built with TypeScript, implementing Domain-Driven Design (DDD) architecture for user authentication with SSO and Google Login support.
 
-## 🏗️ Architecture
+## Architecture
 
 This project follows **Domain-Driven Design (DDD)** principles with clean architecture:
 
@@ -11,7 +11,7 @@ This project follows **Domain-Driven Design (DDD)** principles with clean archit
 - **Infrastructure Layer**: Database repositories, external services, and technical implementations
 - **Presentation Layer**: REST API controllers, routes, and middleware
 
-## 🚀 Features
+## Features
 
 ### Authentication
 - ✅ Local user registration and login
@@ -35,7 +35,7 @@ This project follows **Domain-Driven Design (DDD)** principles with clean archit
 - ✅ Audit logging
 - ✅ Connection pooling
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Runtime**: Node.js
 - **Language**: TypeScript
@@ -48,7 +48,7 @@ This project follows **Domain-Driven Design (DDD)** principles with clean archit
 - **Testing**: Jest
 - **Code Quality**: ESLint, Prettier
 
-## 📦 Installation
+##  Installation
 
 1. **Clone the repository**
    ```bash
@@ -84,7 +84,7 @@ This project follows **Domain-Driven Design (DDD)** principles with clean archit
    npm run db:migrate
    ```
 
-## 🏃‍♂️ Running the Application
+##  Running the Application
 
 ### Development
 ```bash
@@ -130,7 +130,7 @@ npm test
 npm run test:watch
 ```
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Register a new user
@@ -143,7 +143,7 @@ npm run test:watch
 ### Health
 - `GET /health` - Application health check
 
-## 📝 API Usage Examples
+##  API Usage Examples
 
 ### Register User
 ```bash
@@ -176,7 +176,7 @@ curl -X POST http://localhost:3000/api/auth/google \\
   }'
 ```
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 src/
@@ -207,7 +207,7 @@ src/
 └── index.ts             # Application entry point
 ```
 
-## 🔒 Security Features
+## Security Features
 
 - **Password Security**: bcrypt hashing with configurable salt rounds
 - **JWT Security**: Separate access and refresh tokens with configurable expiration
@@ -217,7 +217,7 @@ src/
 - **Input Validation**: Comprehensive validation with class-validator
 - **SQL Injection Protection**: Prisma ORM with parameterized queries
 
-## 🧪 Testing
+## Testing
 
 The project is set up with Jest for testing:
 
@@ -232,7 +232,7 @@ npm run test:watch
 npm test -- --coverage
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Environment Variables for Production
 
@@ -269,17 +269,17 @@ CMD ["node", "dist/index.js"]
 5. Ensure all tests pass
 6. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the ISC License.
 
-## 🎯 What's Next
+##  What's Next
 
 ### Frontend Integration with React
 
 The next phase of this project involves building a comprehensive React frontend that demonstrates enterprise-level authentication patterns:
 
-#### 🌟 **Planned React Frontend Features**
+#### **Planned React Frontend Features**
 
 **Authentication Flow Management (MVP)**
 - **Login/Register Forms**: Clean, responsive forms with real-time validation
@@ -299,7 +299,7 @@ The next phase of this project involves building a comprehensive React frontend 
 - **Role-Based Access Control**: Different UI components based on user roles
 - **Security Headers**: Proper token handling in HTTP requests
 
-#### 🛠️ **Technical Implementation**
+#### **Technical Implementation**
 
 **State Management**
 - **Authentication Context**: React Context for global auth state
@@ -318,7 +318,7 @@ The next phase of this project involves building a comprehensive React frontend 
 - **Dashboard Layout**: Authenticated user dashboard with user controls
 - **Authentication Modals**: Non-intrusive login/register overlays
 
-#### 📱 **Demo Scenarios**
+#### **Demo Scenarios**
 
 **Authentication Workflows**
 1. **New User Journey**: Registration → Email verification → Dashboard access
@@ -332,7 +332,7 @@ The next phase of this project involves building a comprehensive React frontend 
 - **Role-Based Pages**: Admin panel, user management (role-specific access)
 - **Conditional Components**: Different UI elements for different user types
 
-#### 🎨 **UI/UX Highlights**
+#### **UI/UX Highlights**
 
 **Modern Design Patterns**
 - **Material-UI/Chakra UI**: Professional, accessible component library
